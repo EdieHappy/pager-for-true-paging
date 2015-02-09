@@ -1,0 +1,21 @@
+@charset "utf-8";
+/*  翻页样式 */
+.sh-search  .sh-pages{ float: right; height: 26px; margin-top:20px; }
+.sh-pages span,.sh-pages .page{ display: inline-block; float: left; }
+.sh-pages .prev,.sh-pages .next{ position:relative; display: inline-block; width: 53px; height: 24px; margin-left:5px; border:1px solid #ccc; padding-right:8px; line-height: 24px; text-align: right; cursor: pointer;zoom: 1; _position:static;}
+.sh-pages .prev a,.sh-pages .next a{ color: #999; }
+.sh-pages .next{ padding-left: 8px; padding-right:0;  text-align: left;  }
+.sh-pages .prev b,.sh-pages .next b{ position: absolute; left:8px; top:7px; display:block; width: 5px; height: 10px; background:url(images/2-sprite-24.png) -72px -15px no-repeat; }
+.sh-pages .prev-on a,.sh-pages .next-on a{ color: #333; }
+.sh-pages .prev-on b{ background-position: -62px -15px; }
+.sh-pages .next b{ left: 47px; background-position: -77px -15px; }
+
+.sh-pages .next-on b{ background-position: -67px -15px; }
+.sh-pages .page{ float: left; height: 24px; margin-left:5px; padding:0 10px; border: 1px solid #ccc; font:12px Arial; line-height: 24px; color: #333; }
+.sh-pages .current{ border:1px solid #fff; }
+.sh-pages a:hover{ color:#f60; }
+.sh-pages .leave{ margin:0 10px; }
+.sh-pages .gopage{ float: left; margin-left:25px;text-align: center;vertical-align: middle; }
+.sh-pages .gopage .input-goto{ width: 20px; height: 24px; margin:0 8px; vertical-align: middle;}
+.sh-pages .gopage .error-input{ border:1px solid #d00; }
+.sh-pages .go-btn{  float: left; width: 50px; height: 20px; margin-left:7px;padding:1px 0 5px 0; background: url(images/2-sprite-24.png) -45px -74px; text-align: center; line-height: 24px; cursor: pointer; }
