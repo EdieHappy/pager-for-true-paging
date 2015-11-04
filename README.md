@@ -42,3 +42,5 @@ pageView.initParam({
 	});
 	pageView.goPage(1);
 ```
+
+http://lx.suning.com 搜索结果页已使用此插件
