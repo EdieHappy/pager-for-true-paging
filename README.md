@@ -42,5 +42,3 @@ pageView.initParam({
 	});
 	pageView.goPage(1);
 ```
-
-Thanks!
